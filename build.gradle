@@ -27,8 +27,6 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-logging')
-	compile('org.springframework.boot:spring-boot-starter-actuator')
-//	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.47'
 	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.5'
 	compile group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.9'
